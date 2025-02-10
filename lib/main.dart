@@ -2,7 +2,7 @@ import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
 import 'package:test_task/src/features/main/data/datasource/post_remote_data_source.dart';
-import 'package:test_task/src/features/main/data/repository/post_repository.dart';
+import 'package:test_task/src/features/main/domain/repository/post_repository.dart';
 import 'package:test_task/src/features/main/data/repository/post_repository_impl.dart';
 import 'package:test_task/src/features/main/domain/usecases/get_current_post_usecase.dart';
 import 'package:test_task/src/features/main/domain/usecases/get_posts_usecase.dart';
